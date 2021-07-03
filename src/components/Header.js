@@ -18,13 +18,19 @@ export default function Header() {
                 }}>
                     About
                 </li>
-                <li>
+                <li onClick={() => {
+                    document.getElementById('contact').scrollIntoView();
+                }}>
                     Contact
                 </li>
-                <li>
+                <li onClick={() => {
+                    document.getElementById('skill').scrollIntoView();
+                }}>
                     Skill
                 </li>
-                <li>
+                <li onClick={() => {
+                    document.getElementById('project').scrollIntoView();
+                }}>
                     Project
                 </li>
             </ul>
