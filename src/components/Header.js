@@ -4,10 +4,10 @@ import './Header.css'
 export default function Header() {
     return (
         <div className="header">
-            <div>
+            <div className="header__logo">
                 LOGO
             </div>
-            <ul>
+            <ul className="header__menu">
                 <li onClick={() => {
                     document.getElementById('main').scrollIntoView();
                 }}>
